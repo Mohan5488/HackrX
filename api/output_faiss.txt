@@ -1,0 +1,94 @@
+{
+    "documents": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+    "questions": [
+        "What is the grace period for premium payment under the National Parivar Mediclaim Plus Policy?",
+        "What is the waiting period for pre-existing diseases (PED) to be covered?",
+        "Does this policy cover maternity expenses, and what are the conditions?",
+        "What is the waiting period for cataract surgery?",
+        "Are the medical expenses for an organ donor covered under this policy?",
+        "What is the No Claim Discount (NCD) offered in this policy?",
+        "Is there a benefit for preventive health check-ups?",
+        "How does the policy define a 'Hospital'?",
+        "What is the extent of coverage for AYUSH treatments?",
+        "Are there any sub-limits on room rent and ICU charges for Plan A?"
+    ]
+}
+
+
+{
+    "status": "success",
+    "model": "llama3-70b-8192",
+    "vector_store": "FAISS",
+    "results": [
+        {
+            "question": "What is the grace period for premium payment under the National Parivar Mediclaim Plus Policy?",
+            "answer": "The answer is: The Grace Period for payment of the premium shall be thirty days.",
+            "confidence": 0.95,
+            "source": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+            "relevant_docs_count": 3
+        },
+        {
+            "question": "What is the waiting period for pre-existing diseases (PED) to be covered?",
+            "answer": "The waiting period for pre-existing diseases (PED) to be covered is 36 months of continuous coverage after the date of inception of the first policy with the company.",
+            "confidence": 0.95,
+            "source": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+            "relevant_docs_count": 3
+        },
+        {
+            "question": "Does this policy cover maternity expenses, and what are the conditions?",
+            "answer": "According to the policy, maternity expenses are covered under Section 3.1.14 (Maternity). The conditions for coverage are:\n\n* The female Insured Person should have been continuously covered for at least 24 months before availing this benefit.\n* The expenses covered include medical treatment expenses traceable to childbirth (including complicated deliveries and caesarean sections incurred during Hospitalization) and expenses towards lawful medical termination of pregnancy during the Policy Period.\n* The policy excludes maternity expenses incurred in connection with or in respect of:\n\t+ Covered female Insured Person below 18 years and above 45 years of age.\n\t+ Delivery or termination within a Waiting Period of 24 months (unless waived in case of delivery, miscarriage or abortion induced by accident).\n\t+ Delivery or lawful medical termination of pregnancy limited to two deliveries or terminations or either has been paid under the Policy and its Renewals.\n\t+ More than one delivery or lawful medical termination of pregnancy during a single Policy Period.",
+            "confidence": 0.95,
+            "source": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+            "relevant_docs_count": 3
+        },
+        {
+            "question": "What is the waiting period for cataract surgery?",
+            "answer": "I cannot find the answer in the provided context. The context mentions a limit for cataract surgery (Section 3.1.1.2), but it does not specify a waiting period for cataract surgery.",
+            "confidence": 0.95,
+            "source": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+            "relevant_docs_count": 3
+        },
+        {
+            "question": "Are the medical expenses for an organ donor covered under this policy?",
+            "answer": "Yes, the medical expenses for an organ donor are covered under this policy, but with certain conditions. The policy will indemnify the medical expenses incurred in respect of an organ donor's hospitalization during the policy period for harvesting of the organ donated to an insured person, provided that the organ donation confirms to the Transplantation of Human Organs Act 1994, the organ is used for an insured person who has been medically advised to undergo an organ transplant, and the medical expenses are incurred in respect of the organ donor as an in-patient in a hospital.",
+            "confidence": 0.95,
+            "source": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+            "relevant_docs_count": 3
+        },
+        {
+            "question": "What is the No Claim Discount (NCD) offered in this policy?",
+            "answer": "The No Claim Discount (NCD) offered in this policy is a flat 5% of the base premium, provided claims are not reported in the expiring Policy.",
+            "confidence": 0.95,
+            "source": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+            "relevant_docs_count": 3
+        },
+        {
+            "question": "Is there a benefit for preventive health check-ups?",
+            "answer": "Yes, there is a benefit for preventive health check-ups. According to the context, under \"Good Health Incentives\", there is a provision for a \"Health Check Up (as Floater)\" every 2 years, up to a certain amount (INR 5,000, INR 7,500, or INR 10,000).",
+            "confidence": 0.95,
+            "source": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+            "relevant_docs_count": 3
+        },
+        {
+            "question": "How does the policy define a 'Hospital'?",
+            "answer": "According to the policy, a 'Hospital' is defined as a facility that is registered as a hospital with the local authorities under the Clinical Establishments (Registration and Regulation) Act, 2010 or under the enactments specified under Schedule of Section 56(1) of the said Act, OR complies with all minimum criteria as follows:\n\ni. has qualified nursing staff under its employment round the clock;\nii. has at least ten inpatient beds, in those towns having a population of less than ten lacs and fifteen inpatient beds in all other places;\niii. has qualified medical practitioner(s) in charge round the clock;\niv. has a fully equipped operation theatre of its own where surgical procedures are carried out;\nv. maintains daily records of patients and shall make these accessible to the Company’s authorized personnel.",
+            "confidence": 0.95,
+            "source": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+            "relevant_docs_count": 3
+        },
+        {
+            "question": "What is the extent of coverage for AYUSH treatments?",
+            "answer": "According to the context, the extent of coverage for AYUSH treatments is up to the limit of Sum Insured as specified in the Policy Schedule in any AYUSH Hospital, for Inpatient Care treatment under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems of medicines during each Policy Period.",
+            "confidence": 0.95,
+            "source": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+            "relevant_docs_count": 3
+        },
+        {
+            "question": "Are there any sub-limits on room rent and ICU charges for Plan A?",
+            "answer": "According to the provided context, for Plan A, the sub-limits on room rent and ICU charges are:\n\n* Room rent: Up to 1% of SI or actual, whichever is lower\n* ICU charges: Up to 2% of SI or actual, whichever is lower",
+            "confidence": 0.95,
+            "source": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+            "relevant_docs_count": 3
+        }
+    ]
+}
