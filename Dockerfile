@@ -1,5 +1,7 @@
 FROM python:3.11
 
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
 # Set the working directory
 WORKDIR /app
 
